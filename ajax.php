@@ -1,14 +1,14 @@
 <?php
     // var_dump($_REQUEST);
-    $nombre = $_REQUEST['name']; 
-    $apellido = $_REQUEST['surname'];
-    $edad = $_REQUEST['age'];
-    $genero = $_REQUEST['gender'];
-    $pais = $_REQUEST['country'];
+    $name = $_REQUEST['name']; 
+    $surname = $_REQUEST['surname'];
+    $age = $_REQUEST['age'];
+    $gender = $_REQUEST['gender'];
+    $country = $_REQUEST['country'];
 
     
-    echo "Nombre y Apellido: " . $nombre ." ". $apellido . " ". $edad . " Años" . "<br>"; 
-    echo $genero ." ". $pais . "<br>";   
+    echo "Nombre y Apellido: " . $name ." ". $surname . " ". $age . " Años" . "<br>"; 
+    echo $gender ." ". $country . "<br>";   
     if(isset($_REQUEST['interests'])){
         echo "Intereses: " . implode(", ", $_REQUEST['interests']);
     } else {

@@ -25,10 +25,10 @@
 
         <hr class="mb-2">
         <div class="d-flex justify-content-around m-1">
-            <label for="interest">Autos</label>
-            <input type="checkbox" value="autos" name="interests[]">autos</input>
-            <input type="checkbox" value="motos" name="interests[]">motos</input>
-            <input type="checkbox" value="bicis" name="interests[]">bicis</input>           
+            <label for="interest">Intereses</label>
+            <input type="checkbox" value="arte" name="interests[]">arte</input>
+            <input type="checkbox" value="musica" name="interests[]">musica</input>
+            <input type="checkbox" value="deporte" name="interests[]">deporte</input>           
         </div>
         <hr class="mb-2">
 
